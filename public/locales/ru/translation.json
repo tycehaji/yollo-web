@@ -1,9 +1,11 @@
 {
     "contact": "Обратная связь",
-    "package": "Ýüküňizi gaplarys",
-    "trustly": "Dogruçyl bolarys",
-    "deliverdoor": "Gapyňyza gowşurarys",
-    "safetime": "Wagtyňyzy tygşytlarys",
-    "getdoor": "Gapyňyzdan alyp gideris",
-    "deliverhand": "Eliňize eltip bereris"
-  }
+    "package": "Упакуем товар",
+    "trustly": "Будем честны",
+    "deliverdoor": "Доставим к двери",
+    "safetime": "Экономим время",
+    "getdoor": "Заберем у двери",
+    "deliverhand": "Доставим вам",
+    "headertitle": "Надежная и быстрая доставка по велаятам и городам вместе с YOLLO",
+    "qualityservice": "Услуги высокого качества"
+}

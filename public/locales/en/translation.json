@@ -1,9 +1,11 @@
 {
     "contact": "Contacts",
-    "package": "Ýüküňizi gaplarys",
-    "trustly": "Dogruçyl bolarys",
-    "deliverdoor": "Gapyňyza gowşurarys",
-    "safetime": "Wagtyňyzy tygşytlarys",
-    "getdoor": "Gapyňyzdan alyp gideris",
-    "deliverhand": "Eliňize eltip bereris"
+    "package": "Pack your cargo",
+    "trustly": "We will truth",
+    "deliverdoor": "Deliver to door",
+    "safetime": "Safe time",
+    "getdoor": "Pick up at door",
+    "deliverhand": "Deliver to hand",
+    "headertitle": "Safe and fast delivery cargo to regions with YOLLO",
+    "qualityservice": "Service with high quality"
   }
