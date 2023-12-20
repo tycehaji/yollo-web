@@ -1,10 +1,14 @@
+import { useTranslation } from "react-i18next";
 import Map from "../../components/Map";
 import Title from "../../components/Title";
 
 const Contact = () => {
+
+  const { t } = useTranslation()
+
   return (
     <section className="container mx-auto px-4 py-8">
-      <Title text={"Habarlaşmak üçin"} />
+      <Title text={t('contact')} />
       <div className="grid grid-cols-2 gap-6">
         <div className="contact h-[250px] flex items-center justify-around p-4">
           <ul>
