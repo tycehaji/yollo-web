@@ -11,7 +11,7 @@ const Service = () => {
     const { t } = useTranslation()
   return (
     <section id='services' className="container mx-auto px-4 pt-16">
-        <Title text={t('qualityservice')} />
+        {/* <Title text={t('qualityservice')} /> */}
         <Title size={"md"} text={t('servicedescription')} />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-12">
           <div className="h-[200px] sm:h-[270px] p-4 sm:p-6 border-whiteGray border rounded-tr-lg sm:rounded-tr-none rounded-tl-lg flex flex-col justify-between">

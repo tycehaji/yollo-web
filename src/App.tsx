@@ -6,9 +6,21 @@ import Service from "./sections/Service";
 import { useTranslation } from "react-i18next";
 import { locales } from "./constants";
 import clsx from "clsx";
+import React from "react";
 
 function App() {
   const { t, i18n } = useTranslation()
+
+  const getData = async () => {
+    const response = await fetch('http://216.250.10.237/yolloadmin/api')
+    return response.json()
+  }
+
+  React.useEffect(() => {
+    getData()
+  },[])
+
+
   return (
     <>
       <section className="container mx-auto px-4">

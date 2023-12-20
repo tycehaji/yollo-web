@@ -25,4 +25,4 @@ export const locales = {
     en: { title: 'EN' },
     ru: { title: 'RU' },
     tm: { title: 'TM' },
-  };
+};
