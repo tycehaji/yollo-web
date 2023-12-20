@@ -6,26 +6,16 @@ import Service from "./sections/Service";
 import { useTranslation } from "react-i18next";
 import { locales } from "./constants";
 import clsx from "clsx";
-import React from "react";
 
 function App() {
   const { t, i18n } = useTranslation()
-
-  const getData = async () => {
-    const response = await fetch('http://216.250.10.237/yolloadmin/api')
-    return response.json()
-  }
-
-  React.useEffect(() => {
-    getData()
-  },[])
-
 
   return (
     <>
       <section className="container mx-auto px-4">
         <nav className="py-8 flex items-center justify-between">
-          <h1 className="font-[700] text-[40px] text-whiteGray">YOLLO</h1>
+          {/* <h1 className="font-[700] text-[40px] text-whiteGray">YOLLO</h1> */}
+          <img src="/images/logo.png" className="w-[170px]" alt="" />
           {/* <Title text={"Yollo"} /> */}
           <ul className="flex items-center font-[400] text-[18px] gap-x-6 text-whiteGray">
             {Object.keys(locales).map((locale) => {
