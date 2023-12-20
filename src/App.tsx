@@ -39,8 +39,8 @@ function App() {
         {/* <button className="bg-transparent border-whiteGray border-2 hover:bg-[#0197f6] mt-4 text-whiteGray text-[19px] font-[500] h-[54px] w-[300px] rounded-md">Call Us</button> */}
       </section>
       
-{/*       
-      <section className="container mx-auto px-4 py-16">
+      
+      {/* <section className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-2 gap-8">
           <div className="h-[500px] border-whiteGray border rounded-lg"></div>
           <div className="h-[500px] border-whiteGray border rounded-lg"></div>

@@ -42,7 +42,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .locale::after {
   content: '';
   position: absolute;
-  bottom: -50%;
+  bottom: -20%;
   left: 50%;
   transform: translateX(-50%);
   width: 5px;

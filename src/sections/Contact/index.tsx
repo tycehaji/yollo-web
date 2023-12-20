@@ -16,7 +16,7 @@ const Contact = () => {
           return (
             <ContactCart
               key={i}
-              title={elem.title}
+              title={t(elem.title)}
               description={elem.description}
               image={elem.image}
             />

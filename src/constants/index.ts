@@ -1,21 +1,21 @@
 export const contactCarts = [
     {
-        title: 'Telefon',
+        title: 'phone',
         description: '+993 (61) 192228',
         image: '/images/contact-icon.png'
     },
     {
-        title: 'Email',
-        description: 'nazar.se7en@gmail.com',
+        title: 'email',
+        description: 'yollobizden@gmail.com',
         image: '/images/mail.png'
     },
     {
-        title: 'Salgymyz',
+        title: 'address',
         description: 'Jl. Tanjung Barat Selatan, Gang 100 no. 26 Jakarta Selatan',
         image: '/images/location.png'
     },
     {
-        title: 'Social Media',
+        title: 'socialmedia',
         description: 'Instagram / Tiktok: yollo.com.tm',
         image: '/images/socialmedia.png'
     }
