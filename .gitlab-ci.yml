@@ -1,0 +1,13 @@
+stages:  - deploy
+
+deploy_to_server:
+  stage: deploy
+  image: node:14
+  before_script:
+    - npm install
+    - npm run build
+  script:
+    - echo "Deploying to the server..."
+    - sshpass -p $SSH_PASSWORD scp -r -P 22 -o StrictHostKeyChecking=no ./yollo-web/ ubuntu@216.250.12.23:/home/
+  only:
+    - main
