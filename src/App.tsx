@@ -15,7 +15,7 @@ function App() {
       <section className="container mx-auto px-4">
         <nav className="py-8 flex items-center justify-between">
           {/* <h1 className="font-[700] text-[40px] text-whiteGray">YOLLO</h1> */}
-          {/* <img src="/images/logo.png" className="w-[170px]" alt="" /> */}
+          <img src="/images/logo.png" className="w-[170px]" alt="" />
           {/* <Title text={"Yollo"} /> */}
           <ul className="flex items-center font-[400] text-[18px] gap-x-6 text-whiteGray">
             {Object.keys(locales).map((locale) => {
