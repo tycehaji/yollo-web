@@ -6,10 +6,6 @@ import Service from "./sections/Service";
 import { useTranslation } from "react-i18next";
 import { locales } from "./constants";
 import clsx from "clsx";
-import { IoTimeOutline } from "react-icons/io5";
-import { BsDoorOpen } from "react-icons/bs";
-import { LiaHandshakeSolid } from "react-icons/lia";
-import { TfiDropbox } from "react-icons/tfi";
 
 function App() {
   const { t, i18n } = useTranslation()
