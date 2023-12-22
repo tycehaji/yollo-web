@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: gozle212
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
