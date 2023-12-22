@@ -6,6 +6,10 @@ import Service from "./sections/Service";
 import { useTranslation } from "react-i18next";
 import { locales } from "./constants";
 import clsx from "clsx";
+import { IoTimeOutline } from "react-icons/io5";
+import { BsDoorOpen } from "react-icons/bs";
+import { LiaHandshakeSolid } from "react-icons/lia";
+import { TfiDropbox } from "react-icons/tfi";
 
 function App() {
   const { t, i18n } = useTranslation()
@@ -50,8 +54,31 @@ function App() {
           <div className="h-[500px] border-whiteGray border rounded-lg"></div>
         </div>
       </section> */}
+
+      {/* <div className="container mx-auto px-4 pt-16">
+
+
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-12">
+          <div className="h-[200px] sm:h-[270px] p-4 sm:p-6 border-whiteGray border rounded-tr-lg sm:rounded-tr-none rounded-tl-lg flex flex-col justify-between">
+            <IoTimeOutline color={'#FAFAFA'} size={40} />
+            <Title className="!text-[35px] mt-auto translate-y-2" text={t('safetime')} />
+          </div>
+          <div className="h-[200px] sm:h-[270px] p-4 sm:p-6 border-whiteGray border sm:rounded-tr-lg md:rounded-tr-none flex flex-col justify-between">
+            <BsDoorOpen color={'#FAFAFA'} size={40} />
+            <Title className="!text-[35px] mt-auto translate-y-2" text={t('getdoor')} />
+          </div>
+          <div className="h-[200px] sm:h-[270px] p-4 sm:p-6 border-whiteGray border md:rounded-tr-lg flex flex-col justify-between">
+            <LiaHandshakeSolid color={'#FAFAFA'} size={40} />
+            <Title className="!text-[35px] mt-auto translate-y-2" text={t('deliverhand')} />
+          </div>
+          <div className="h-[200px] sm:h-[270px] p-4 sm:p-6 border-whiteGray border md:rounded-bl-lg flex flex-col justify-between">
+            <TfiDropbox color={'#FAFAFA'} size={40} />
+            <Title className="!text-[35px] mt-auto translate-y-2" text={t('package')} />
+          </div>
+        </div>
       
-      
+      </div>
+       */}
       <Service />
       
       

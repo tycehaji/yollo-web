@@ -19,6 +19,7 @@ const Contact = () => {
               title={t(elem.title)}
               description={elem.description}
               image={elem.image}
+              link={elem.link}
             />
           );
         })}

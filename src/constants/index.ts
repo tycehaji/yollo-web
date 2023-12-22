@@ -1,17 +1,19 @@
 export const contactCarts = [
     {
         title: 'phone',
-        description: '+993 (61) 192228',
-        image: '/images/contact-icon.png'
+        description: '+993 (61) 192228 / +993 (63) 066699',
+        image: '/images/contact-icon.png',
+        link: 'tel:+99361192228'
     },
     {
         title: 'email',
         description: 'yollobizden@gmail.com',
-        image: '/images/mail.png'
+        image: '/images/mail.png',
+        link: 'mailto:yollobizden@gmail.com'
     },
     {
         title: 'address',
-        description: 'Jl. Tanjung Barat Selatan, Gang 100 no. 26 Jakarta Selatan',
+        description: 'Ashgabat, Täze gurtly, 147-nji mekdep ýany',
         image: '/images/location.png'
     },
     {
